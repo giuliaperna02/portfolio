@@ -36,7 +36,7 @@ export const Projects = () => {
     <section id="projects" className="min-h-screen py-20 bg-black text-white">
       <div className="max-w-5xl mx-auto px-4 break-words">
         <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-pink-500 to-purple-400 bg-clip-text text-transparent">
-          🖼️ Curatorial Projects
+          🏛️ Curatorial Projects
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
