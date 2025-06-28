@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             href="#home"
             className="whitespace-nowrap text-sm sm:text-base md:text-lg font-mono font-semibold text-white tracking-tight"
           >
-            Andrea&nbsp;Perna<span className="text-blue-400"> Automation Engineer</span>
+            Giulia&nbsp;Perna<span className="text-blue-400"> Exhibitions Curator</span>
           </a>
 
           <div
