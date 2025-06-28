@@ -9,7 +9,7 @@ import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Skills } from "./components/sections/Skills";
 import { Projects } from "./components/sections/Projects";
-import { Projects } from "./components/sections/Gallery";
+import { Gallery } from "./components/sections/Gallery";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
 
