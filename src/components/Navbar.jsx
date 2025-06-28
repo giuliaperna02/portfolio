@@ -12,9 +12,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             href="#home"
             className="whitespace-nowrap text-sm sm:text-base md:text-lg font-mono font-semibold text-white tracking-tight"
           >
-            Giulia&nbsp;Perna<span className="text-blue-400"> Exhibitions Curator</span>
+            Giulia&nbsp;Perna
+            <span className="text-pink-400"> Exhibitions Curator</span>
           </a>
-
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}

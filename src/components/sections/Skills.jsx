@@ -1,10 +1,37 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Skills = () => {
-  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "PCB", "LabVIEW", "MATLAB", "Simulink", "Docker", "Git", "20Sim", "Raspberry Pi"];
-  const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV", "Numpy"];
-  const ProgrammingLanguages = ["Python", "C", "Java", "C++/C#", "JavaScript", "HTML/CSS"];
-  const GameDevelopment = ["Unity", "Unreal Engine", "Blender", "Manim", "Matplotlib"];
+  const Curatorial = [
+    "Exhibition Design", 
+    "Collections Management", 
+    "Inventory & Cataloguing", 
+    "Temporary and Permanent Exhibitions", 
+    "Heritage Enhancement", 
+    "Art Curation"
+  ];
+
+  const Communication = [
+    "Public Speaking", 
+    "Team Collaboration", 
+    "Language Mediation", 
+    "Cultural Sensitivity", 
+    "Museum Proposal Writing"
+  ];
+
+  const Languages = [
+    "Italian (Native)", 
+    "French (Advanced)", 
+    "English (Advanced)", 
+    "Spanish (Intermediate)"
+  ];
+
+  const PersonalTraits = [
+    "Dedication & Perseverance (Karate Discipline)", 
+    "Adaptability", 
+    "Time Management", 
+    "Creative Thinking", 
+    "Empathy & Motivation"
+  ];
 
   return (
     <section
@@ -13,54 +40,54 @@ export const Skills = () => {
     >
       <RevealOnScroll>
         <div className="max-w-4xl mx-auto p-6 border border-white/10 rounded-xl hover:-translate-y-1 transition-all">
-          <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-pink-500 to-purple-400 bg-clip-text text-transparent text-center">
             🛠️ Skills
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Robotics */}
+            {/* Curatorial Skills */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Robotics</h3>
+              <h3 className="text-xl font-bold mb-4">Curatorial & Museum</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {Robotics.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {Curatorial.map((skill, key) => (
+                  <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
+                    {skill}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* AI */}
+            {/* Communication */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Artificial Intelligence</h3>
+              <h3 className="text-xl font-bold mb-4">Communication & Public Engagement</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {ArtificialIntelligence.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {Communication.map((skill, key) => (
+                  <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
+                    {skill}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* Programming */}
+            {/* Languages */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Programming Languages</h3>
+              <h3 className="text-xl font-bold mb-4">Languages</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {ProgrammingLanguages.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {Languages.map((lang, key) => (
+                  <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
+                    {lang}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* Game Dev */}
+            {/* Personal Traits */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Game Development & Visualization</h3>
+              <h3 className="text-xl font-bold mb-4">Personal Traits</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {GameDevelopment.map((tech, key) => (
-                  <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
-                    {tech}
+                {PersonalTraits.map((trait, key) => (
+                  <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
+                    {trait}
                   </span>
                 ))}
               </div>
