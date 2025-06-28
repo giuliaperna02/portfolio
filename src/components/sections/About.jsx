@@ -85,16 +85,6 @@ export const About = () => {
             </div>
           </div>
 
-          {/* Info */}
-          <div className="p-6 mt-8 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">📌 Personal Info & Skills</h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li><strong>Languages:</strong> Italian (native), French (advanced), English (advanced), Spanish (intermediate)</li>
-              <li><strong>Soft Skills:</strong> Public speaking, adaptability, organization, creativity</li>
-              <li><strong>Hobbies:</strong> Karate (brown belt), painting, traveling, artisan jewelry</li>
-              <li><strong>Driving Licenses:</strong> AM, A1, B</li>
-            </ul>
-          </div>
         </div>
       </RevealOnScroll>
     </section>
