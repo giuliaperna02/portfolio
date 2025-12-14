@@ -38,28 +38,59 @@ export const About = () => {
                   <br />
                   <span className="text-sm text-gray-400">ITC Manfredi-Tanari, Bologna</span>
                   <br />
-                  <span className="text-sm text-gray-400">2015 – 2021</span>
+                  <span className="text-sm text-gray-400">2016 – 2021</span>
                 </li>
               </ul>
             </div>
 
             {/* Work & Projects */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">🧾 Experience</h3>
+              <h3 className="text-xl font-bold mb-4">🧾 Experiences</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
+                
+                <li>
+                  <strong>Curator at the historical museum</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">Museo della Battaglia del Montello, Nervesa della Battaglia (TV), Ongoing</span>
+                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                    <p className="text-sm text-gray-400">
+                      Museum exhibition of artifacts from the Battle of Montello and creation of special display cases.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <strong>Food & Beverage Attendant at Music Events</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">Unipol Arena, Casalecchio di Reno (BO)</span>
+                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                    <p className="text-sm text-gray-400">
+                      Provided food and beverage service during large-scale music events.
+                    </p>
+                  </div>
+                </li>
                 <li>
                   <strong>Internship – Museo degli Alpini</strong>
                   <br />
-                  <span className="text-sm text-gray-400">Conegliano, 2024</span>
+                  <span className="text-sm text-gray-400">Conegliano (TV), 2024</span>
                   <div className="mt-2 pl-4 border-l-2 border-pink-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
                       <li>Catalogued WWI and WWII historical artifacts.</li>
                       <li>Drafted curatorial notes and designed exhibition concepts.</li>
-                      <li>Interviewed and featured on Qdp News for her contribution.</li>
+                      <li>
+                        Interviewed and featured on{" "}
+                        <a
+                          href="https://www.qdpnews.it/comuni/conegliano/da-bologna-alla-marca-per-il-tirocinio-universitario-giulia-racconta-la-sua-avventura-al-museo-degli-alpini/?fbclid=IwZXh0bgNhZW0CMTEAAR3v0Kuue33DYe2_8wFv3W60OUnIrwtveFSvSrygRPlXLzXDSHUXz9mfNSo_aem_-z0Nq3KRvfGZ4q-DbmgXAQ"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-pink-400 hover:text-pink-300 underline underline-offset-4"
+                        >
+                          Qdp News
+                        </a>
+                        .
+                      </li>
                     </ul>
                   </div>
                 </li>
-
                 <li>
                   <strong>Language Internship – Babel Language Projects</strong>
                   <br />
@@ -70,7 +101,6 @@ export const About = () => {
                     </p>
                   </div>
                 </li>
-
                 <li>
                   <strong>Office Internship – UniSalute</strong>
                   <br />

@@ -33,6 +33,15 @@ export const Skills = () => {
     "Empathy & Motivation"
   ];
 
+  const Management = [
+    "Basic Accounting & Financial Statements",
+    "Cost Analysis & Budget Awareness",
+    "SWOT Analysis",
+    "Cultural Project Evaluation",
+    "Economic Sustainability of Cultural Projects"
+  ];
+
+
   return (
     <section
       id="skills"
@@ -76,6 +85,21 @@ export const Skills = () => {
                 {Languages.map((lang, key) => (
                   <span key={key} className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition">
                     {lang}
+                  </span>
+                ))}
+              </div>
+            </div>
+            
+            {/* Economic & Management */}
+            <div className="flex flex-col items-center text-center">
+              <h3 className="text-xl font-bold mb-4">Economic & Management</h3>
+              <div className="flex flex-wrap justify-center gap-2">
+                {Management.map((skill, key) => (
+                  <span
+                    key={key}
+                    className="bg-pink-500/10 text-pink-400 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 transition"
+                  >
+                    {skill}
                   </span>
                 ))}
               </div>

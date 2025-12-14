@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
-            I'm a passionate Italian curator and cultural project manager, with international experience in exhibition design, artistic coordination, and public engagement. I specialize in guiding artistic projects from concept to realization — shaping meaningful cultural narratives that inspire.
+            I am a Master's student at the University of Bologna, enrolled in the bilingual programme in Arts, Museology and Curatorship, and I currently work as a curator at the Museo della Battaglia del Solstizio in Nervesa della Battaglia (TV). I am now seeking a professional opportunity that will allow me to turn my greatest passion into a career: curatorship.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
