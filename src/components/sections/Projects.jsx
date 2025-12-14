@@ -3,33 +3,113 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   const projects = [
     {
+      title: "Museo della Battaglia del Montello – Nervesa della Battaglia",
+      github: null,
+      description:
+        "Curatorial and exhibition project for the Museo della Battaglia del Montello, founded by the Battaglia del Solstizio Historical and Cultural Association. Responsible for drafting museum templates, technical wall texts, exhibition layout design, and collection inventorying. The museum was inaugurated in September 2025.",
+      tech: [
+        "Museum Design",
+        "Exhibition Setup",
+        "Technical Wall Texts",
+        "Inventory & Cataloguing",
+        "Institutional Curation",
+      ],
+    },
+    {
       title: "Cultural Mediation and Exhibition at Palazzo Poggi",
       github: null,
       description:
-        "Designed and conducted mediation activities for permanent and temporary exhibitions at Palazzo Poggi, University Museum System of Bologna. Curated multilingual experiences tailored for diverse audiences, combining historical depth and visual engagement.",
-      tech: ["Curation", "Exhibition Mediation", "Public Engagement", "Multilingual Support"],
+        "Designed and conducted mediation activities for permanent and temporary exhibitions at Palazzo Poggi, part of the University Museum System of Bologna. Curated multilingual experiences tailored for diverse audiences, combining historical depth and visual engagement.",
+      tech: [
+        "Curation",
+        "Exhibition Mediation",
+        "Public Engagement",
+        "Multilingual Support",
+      ],
     },
     {
-      title: "Mediation and Cataloging at Museo Civico Medievale",
+      title: "Mediation and Cataloguing at Museo Civico Medievale",
       github: null,
       description:
-        "Managed and cataloged museum collections using internal documentation systems. Delivered interpretive mediation for visitors and contributed to temporary exhibition updates, focusing on medieval artifacts and cultural storytelling.",
-      tech: ["Cataloguing", "Inventory Management", "Storytelling", "Documentation Systems"],
+        "Managed and catalogued museum collections using internal documentation systems. Delivered interpretive mediation for visitors and contributed to temporary exhibition updates, focusing on medieval artifacts and narrative-driven cultural storytelling.",
+      tech: [
+        "Cataloguing",
+        "Inventory Management",
+        "Storytelling",
+        "Documentation Systems",
+      ],
     },
     {
       title: "Contemporary Art Mediation – MAMbo and Villa delle Rose",
       github: null,
       description:
-        "Facilitated engagement with contemporary artworks through curated visits, educational workshops, and interactive formats. Supported exhibitions by artists like Takako Saito and participated in exhibition logistics and outreach strategies.",
-      tech: ["Contemporary Art", "Educational Mediation", "Workshop Design", "Exhibition Support"],
+        "Facilitated public engagement with contemporary artworks through curated visits, educational workshops, and interactive formats. Supported exhibitions by artists such as Takako Saito and contributed to exhibition logistics and outreach strategies.",
+      tech: [
+        "Contemporary Art",
+        "Educational Mediation",
+        "Workshop Design",
+        "Exhibition Support",
+      ],
+    },
+    {
+      title: "Metamorphosis",
+      github: null,
+      description:
+        "Conceptual curatorial project exploring transformation as a cultural and biological process. Designed as a fictional exhibition intertwining science, art, and technology to investigate identity, the body, and societal change through interdisciplinary narratives.",
+      tech: [
+        "Conceptual Curation",
+        "Exhibition Narrative",
+        "Science & Art Dialogue",
+        "Thematic Research",
+      ],
+    },
+    {
+      title: "La Ville",
+      github: null,
+      description:
+        "Group curatorial project conceived for a physical exhibition at the Supino Library (University of Bologna). The project compares Superstudio’s Ideal Cities with Italo Calvino’s Invisible Cities, reflecting on dwelling, urban imagination, and the perception of space.",
+      tech: [
+        "Urban Studies",
+        "Exhibition Theory",
+        "Collective Curation",
+        "Spatial Interpretation",
+      ],
+    },
+    {
+      title: "Between Hell and Paradise: The Historic Condemnation of Women",
+      github: null,
+      description:
+        "Curatorial project developed as a visual sequence of images exploring the historical representation of women in art. The exhibition examines the dichotomy between sanctification and demonisation through painting and iconographic analysis.",
+      tech: [
+        "Iconographic Analysis",
+        "Visual Curation",
+        "Gender Studies",
+        "Art History",
+      ],
+    },
+    {
+      title: "90° Degrees",
+      github: null,
+      description:
+        "Exhibition project investigating the relationship between humans and nature through the symbolic use of the right angle. Organised into three rooms and designed for a bidirectional experience, guiding visitors from natural micro-details to large-scale urban interventions.",
+      tech: [
+        "Exhibition Design",
+        "Spatial Narrative",
+        "Environmental Humanities",
+        "Visitor Experience",
+      ],
     },
     {
       title: "Translation and Cultural Adaptation of Scientific Content",
       github: null,
       description:
-        "Translated scientific and educational material between Italian and French for use in museum exhibits and guided tours. Ensured linguistic fidelity and cultural sensitivity in conveying complex topics to public audiences.",
-      tech: ["French Translation", "Educational Content", "Intercultural Communication"],
-    }
+        "Translated scientific and educational material between Italian and French for use in museum exhibits and guided tours. Ensured linguistic fidelity and cultural sensitivity when conveying complex topics to public audiences.",
+      tech: [
+        "French Translation",
+        "Educational Content",
+        "Intercultural Communication",
+      ],
+    },
   ];
 
   return (
