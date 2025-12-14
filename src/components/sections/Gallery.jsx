@@ -1,18 +1,37 @@
-import graduationPortrait from "../../assets/giulia_graduation.png";
+import graduationPortrait from "../../assets/giulia_graduation.jpg";
 import museumPhotography from "../../assets/giulia_photo_museum.png";
+import laVilleProject from "../../assets/laville.jpg";
+import karatePractice from "../../assets/karate_giulia.jpg";
+import montelloInauguration from "../../assets/montello_inauguration.jpg";
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Gallery = () => {
   const items = [
+    {
+      img: montelloInauguration,
+      alt: "Inauguration of the Museo della Battaglia del Montello",
+      caption: "🏛️ Inauguration of the Museo della Battaglia del Montello",
+    },
     {
       img: museumPhotography,
       alt: "Giulia photographing an exhibition",
       caption: "📷 At the exhibition – curatorial documentation",
     },
     {
+      img: laVilleProject,
+      alt: "La Ville – group curatorial project",
+      caption: "🏙️ La Ville – Group curatorial project (French)",
+    },
+    {
       img: graduationPortrait,
-      alt: "Giulia graduation day",
+      alt: "Bachelor's Degree – University of Bologna",
       caption: "🎓 Bachelor's Degree – University of Bologna",
+    },
+    {
+      img: karatePractice,
+      alt: "Karate practice",
+      caption: "🥋 Karate belt examination - San Giorgio Di Piano",
     },
   ];
 
