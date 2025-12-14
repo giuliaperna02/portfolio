@@ -9,9 +9,9 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Gallery = () => {
   const items = [
     {
-      img: montelloInauguration,
-      alt: "Inauguration of the Museo della Battaglia del Montello",
-      caption: "🏛️ Inauguration of the Museo della Battaglia del Montello",
+      img: graduationPortrait,
+      alt: "Bachelor's Degree – University of Bologna",
+      caption: "🎓 Bachelor's Degree – University of Bologna",
     },
     {
       img: museumPhotography,
@@ -24,9 +24,9 @@ export const Gallery = () => {
       caption: "🏙️ La Ville – Group curatorial project (French)",
     },
     {
-      img: graduationPortrait,
-      alt: "Bachelor's Degree – University of Bologna",
-      caption: "🎓 Bachelor's Degree – University of Bologna",
+      img: montelloInauguration,
+      alt: "Inauguration of the Museo della Battaglia del Montello",
+      caption: "🏛️ Inauguration of the Museo della Battaglia del Montello",
     },
     {
       img: karatePractice,
