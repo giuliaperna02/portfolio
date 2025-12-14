@@ -16,42 +16,6 @@ export const Projects = () => {
       ],
     },
     {
-      title: "Cultural Mediation and Exhibition at Palazzo Poggi",
-      github: null,
-      description:
-        "Designed and conducted mediation activities for permanent and temporary exhibitions at Palazzo Poggi, part of the University Museum System of Bologna. Curated multilingual experiences tailored for diverse audiences, combining historical depth and visual engagement.",
-      tech: [
-        "Curation",
-        "Exhibition Mediation",
-        "Public Engagement",
-        "Multilingual Support",
-      ],
-    },
-    {
-      title: "Mediation and Cataloguing at Museo Civico Medievale",
-      github: null,
-      description:
-        "Managed and catalogued museum collections using internal documentation systems. Delivered interpretive mediation for visitors and contributed to temporary exhibition updates, focusing on medieval artifacts and narrative-driven cultural storytelling.",
-      tech: [
-        "Cataloguing",
-        "Inventory Management",
-        "Storytelling",
-        "Documentation Systems",
-      ],
-    },
-    {
-      title: "Contemporary Art Mediation – MAMbo and Villa delle Rose",
-      github: null,
-      description:
-        "Facilitated public engagement with contemporary artworks through curated visits, educational workshops, and interactive formats. Supported exhibitions by artists such as Takako Saito and contributed to exhibition logistics and outreach strategies.",
-      tech: [
-        "Contemporary Art",
-        "Educational Mediation",
-        "Workshop Design",
-        "Exhibition Support",
-      ],
-    },
-    {
       title: "Metamorphosis",
       github: null,
       description:
