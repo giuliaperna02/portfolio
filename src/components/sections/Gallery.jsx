@@ -3,6 +3,7 @@ import museumPhotography from "../../assets/giulia_photo_museum.png";
 import laVilleProject from "../../assets/laville.jpg";
 import karatePractice from "../../assets/karate_giulia.jpg";
 import montelloInauguration from "../../assets/montello_inauguration.jpg";
+import montelloCurator from "../../assets/museum.jpg";
 
 import { RevealOnScroll } from "../RevealOnScroll";
 
@@ -19,14 +20,19 @@ export const Gallery = () => {
       caption: "📷 At the exhibition – curatorial documentation",
     },
     {
+      img: montelloInauguration,
+      alt: "Inauguration ceremony of the Museo della Battaglia del Montello",
+      caption: "🏛️ Museo della Battaglia del Montello – inauguration ceremony",
+    },
+    {
+      img: montelloCurator,
+      alt: "Curator at the Museo della Battaglia del Montello",
+      caption: "🏛️ Museo della Battaglia del Montello – curator at the museum",
+    },
+    {
       img: laVilleProject,
       alt: "La Ville – group curatorial project",
       caption: "🏙️ La Ville – Group curatorial project (French)",
-    },
-    {
-      img: montelloInauguration,
-      alt: "Inauguration of the Museo della Battaglia del Montello",
-      caption: "🏛️ Inauguration of the Museo della Battaglia del Montello",
     },
     {
       img: karatePractice,
